@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My English Learning Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root { --navy:#142d40; --teal:#087f7b; --pale:#eef8f6; --line:#dce8e8; }
+    html { scroll-behavior:smooth; scroll-padding-top:6rem; }
+    body { width:100%; margin:0; font-family:'DM Sans',sans-serif; color:var(--navy); }
+    h1,h2,h3 { font-family:'Fraunces',serif; }
+    a,button,input,textarea { outline-offset:4px; }
+    :focus-visible { outline:3px solid #087f7b; }
+    .site-header { background:rgba(255,255,255,.96); backdrop-filter:blur(12px); border-bottom:1px solid var(--line); }
+    .hero-wash { background:linear-gradient(120deg,#f1f9f8 0%,#fff 72%); }
+    .card-shadow { box-shadow:0 14px 40px rgba(20,45,64,.07); }
+    .post-article { scroll-margin-top:6rem; }
+    .image-frame img { transition:transform .5s ease; }
+    .preview:hover .image-frame img { transform:scale(1.045); }
+    .video-frame { position:relative; aspect-ratio:16/9; background:#142d40; overflow:hidden; border-radius:1rem; }
+    .video-frame iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+    .action-link { display:inline-flex; align-items:center; justify-content:center; min-height:48px; border-radius:999px; padding:12px 22px; text-align:center; font-weight:700; text-decoration:none; transition:transform .2s,box-shadow .2s; }
+    .action-link:hover { transform:translateY(-2px); box-shadow:0 8px 20px rgba(8,127,123,.18); }
+    @media (max-width:767px) {
+      .mobile-nav[hidden] { display:none; }
+    }
+    @media (min-width:768px) {
+      .mobile-nav { display:flex !important; }
+    }
+    @media (prefers-reduced-motion:reduce) {
+      html { scroll-behavior:auto; }
+      *,*::before,*::after { transition-duration:.01ms !important; animation-duration:.01ms !important; }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  
+  
+  
+ </head>
+ <body data-template-id="__page-root" class="w-full" style="background: rgb(255, 255, 255);">
+  <header class="site-header sticky top-0 z-50 w-full">
+   <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 md:px-10"><a href="#home" data-template-id="brand-name" class="canva-link max-w-[230px] font-bold leading-tight no-underline md:max-w-none" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 15px;">MY ENGLISH LEARNING JOURNEY</a> <button id="menu-toggle" type="button" class="canva-button rounded-lg border border-[#dce8e8] p-2 md:hidden" aria-label="Open navigation menu" aria-controls="primary-nav" aria-expanded="false"> <span class="block h-0.5 w-6 bg-[#142d40]"></span><span class="mt-1.5 block h-0.5 w-6 bg-[#142d40]"></span><span class="mt-1.5 block h-0.5 w-6 bg-[#142d40]"></span> </button>
+    <nav id="primary-nav" class="mobile-nav absolute left-0 right-0 top-full flex-col gap-1 border-b border-[#dce8e8] bg-white px-5 py-4 shadow-lg md:static md:flex-row md:gap-8 md:border-0 md:bg-transparent md:p-0 md:shadow-none" aria-label="Main navigation" hidden=""><a href="#home" data-template-id="nav-home" class="canva-link block rounded-lg px-3 py-2 font-semibold hover:bg-[#eef8f6]" style="color: rgb(20, 45, 64); font-weight: 400; font-style: normal; font-size: 16px;">Home</a> <a href="#blog-posts" data-template-id="nav-posts" class="canva-link block rounded-lg px-3 py-2 font-semibold hover:bg-[#eef8f6]" style="color: rgb(20, 45, 64); font-weight: 400; font-style: normal; font-size: 16px;">Blog Posts</a> <a href="#about-me" data-template-id="nav-about" class="canva-link block rounded-lg px-3 py-2 font-semibold hover:bg-[#eef8f6]" style="color: rgb(20, 45, 64); font-weight: 400; font-style: normal; font-size: 16px;">About Me</a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section id="home" data-template-id="hero-section" class="canva-section hero-wash w-full border-b border-[#dce8e8]" style="background: linear-gradient(120deg, rgb(241, 249, 248), rgb(255, 255, 255));">
+    <div class="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 md:grid-cols-[1.15fr_.85fr] md:px-10 md:py-24">
+     <div>
+      <p data-template-id="hero-kicker" class="canva-text mb-5 font-bold uppercase tracking-[.16em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">An English learning blog</p>
+      <h1 data-template-id="hero-title" class="canva-text max-w-2xl leading-[1.13]" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 32px;">My English Learning Journey</h1>
+      <p data-template-id="hero-subtitle" class="canva-text mt-5 max-w-xl font-semibold leading-relaxed" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 19px;">My Experiences, Learning Activities and Professional Growth</p>
+      <p data-template-id="hero-intro" class="canva-text mt-6 max-w-2xl leading-[1.8]" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Welcome to my English learning blog! My name is Sebastian Camilo Castaño Rojas, and I am a SENA student in Data Network Management. Here I share some activities that have helped me improve my English communication skills and prepare for my professional future.</p>
+      <div class="mt-7 border-l-4 border-[#087f7b] pl-5">
+       <p data-template-id="hero-author" class="canva-text font-bold" style="color: rgb(20, 45, 64); font-weight: 400; font-style: normal; font-size: 16px;">Sebastian Camilo Castaño Rojas</p>
+       <p data-template-id="hero-program" class="canva-text mt-1" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Data Network Management (Gestión de Redes de Datos)</p>
+       <p data-template-id="hero-institution" class="canva-text mt-1" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">SENA – Servicio Nacional de Aprendizaje</p>
+      </div><a href="#blog-posts" data-template-id="explore-link" class="canva-button action-link mt-8" style="background: rgb(8, 127, 123); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Explore Blog Posts</a>
+     </div>
+     <div class="relative">
+      <div class="absolute -bottom-4 -left-4 h-full w-full rounded-[2rem] bg-[#d8eeea]" aria-hidden="true"></div><img data-template-id="hero-image" class="canva-image relative h-72 w-full rounded-[2rem] object-cover shadow-xl md:h-[470px]" loading="lazy" src="https://images.pexels.com/photos/6334778/pexels-photo-6334778.jpeg" alt="Student studying at home with a laptop">
+     </div>
+    </div>
+   </section>
+   <section id="blog-posts" class="mx-auto max-w-7xl px-5 py-20 md:px-10">
+    <p data-template-id="posts-eyebrow" class="canva-text mb-3 font-bold uppercase tracking-[.16em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">Learning in practice</p>
+    <h2 data-template-id="posts-title" class="canva-text" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 24px;">Blog Posts</h2>
+    <p data-template-id="posts-lead" class="canva-text mt-4 max-w-2xl leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Explore six activities about English communication, technology and professional growth.</p>
+    <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3"><a href="#post-1" data-template-id="card-1" class="canva-card preview card-shadow group overflow-hidden rounded-2xl border border-[#dce8e8] bg-white no-underline" style="background: rgb(255, 255, 255);">
+      <div class="image-frame overflow-hidden">
+       <img data-template-id="card-1-image" class="canva-image h-48 w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Person taking notes during a video conference on a laptop">
+      </div>
+      <div class="p-6">
+       <span data-template-id="card-1-number" class="canva-tag font-bold" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 01</span>
+       <h3 data-template-id="card-1-title" class="canva-text mt-2" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">My Virtual Job Interview</h3>
+       <p data-template-id="card-1-excerpt" class="canva-text mt-3 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Practicing interview questions and professional goals in English.</p><span data-template-id="card-1-read" class="canva-text mt-5 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Read Post →</span>
+      </div></a> <a href="#post-2" data-template-id="card-2" class="canva-card preview card-shadow group overflow-hidden rounded-2xl border border-[#dce8e8] bg-white no-underline" style="background: rgb(255, 255, 255);">
+      <div class="image-frame overflow-hidden">
+       <img data-template-id="card-2-image" class="canva-image h-48 w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/15017315/pexels-photo-15017315.jpeg" alt="Cobblestone path leading toward mountains under a colorful sky">
+      </div>
+      <div class="p-6">
+       <span data-template-id="card-2-number" class="canva-tag font-bold" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 02</span>
+       <h3 data-template-id="card-2-title" class="canva-text mt-2" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Discovering a Tourist Place</h3>
+       <p data-template-id="card-2-excerpt" class="canva-text mt-3 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Using a video presentation to practice describing a place in English.</p><span data-template-id="card-2-read" class="canva-text mt-5 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Read Post →</span>
+      </div></a> <a href="#post-3" data-template-id="card-3" class="canva-card preview card-shadow group overflow-hidden rounded-2xl border border-[#dce8e8] bg-white no-underline" style="background: rgb(255, 255, 255);">
+      <div class="image-frame overflow-hidden">
+       <img data-template-id="card-3-image" class="canva-image h-48 w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Laptop and professional documents on a desk">
+      </div>
+      <div class="p-6">
+       <span data-template-id="card-3-number" class="canva-tag font-bold" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 03</span>
+       <h3 data-template-id="card-3-title" class="canva-text mt-2" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">My Job Application Letter</h3>
+       <p data-template-id="card-3-excerpt" class="canva-text mt-3 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Writing a formal application for a Network Administrator position.</p><span data-template-id="card-3-read" class="canva-text mt-5 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Read Post →</span>
+      </div></a> <a href="#post-4" data-template-id="card-4" class="canva-card preview card-shadow group overflow-hidden rounded-2xl border border-[#dce8e8] bg-white no-underline" style="background: rgb(255, 255, 255);">
+      <div class="image-frame overflow-hidden">
+       <img data-template-id="card-4-image" class="canva-image h-48 w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Server racks with lights in a data center">
+      </div>
+      <div class="p-6">
+       <span data-template-id="card-4-number" class="canva-tag font-bold" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 04</span>
+       <h3 data-template-id="card-4-title" class="canva-text mt-2" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Tim Berners-Lee and the World Wide Web</h3>
+       <p data-template-id="card-4-excerpt" class="canva-text mt-3 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Learning about Tim Berners-Lee and the importance of the Web.</p><span data-template-id="card-4-read" class="canva-text mt-5 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Read Post →</span>
+      </div></a> <a href="#post-5" data-template-id="card-5" class="canva-card preview card-shadow group overflow-hidden rounded-2xl border border-[#dce8e8] bg-white no-underline" style="background: rgb(255, 255, 255);">
+      <div class="image-frame overflow-hidden">
+       <img data-template-id="card-5-image" class="canva-image h-48 w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Professionals working together around a table">
+      </div>
+      <div class="p-6">
+       <span data-template-id="card-5-number" class="canva-tag font-bold" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 05</span>
+       <h3 data-template-id="card-5-title" class="canva-text mt-2" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Attitudes, Beliefs and Obligations</h3>
+       <p data-template-id="card-5-excerpt" class="canva-text mt-3 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Discussing responsibility, teamwork and cybersecurity obligations.</p><span data-template-id="card-5-read" class="canva-text mt-5 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Read Post →</span>
+      </div></a> <a href="#post-6" data-template-id="card-6" class="canva-card preview card-shadow group overflow-hidden rounded-2xl border border-[#dce8e8] bg-white no-underline" style="background: rgb(255, 255, 255);">
+      <div class="image-frame overflow-hidden">
+       <img data-template-id="card-6-image" class="canva-image h-48 w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/9159001/pexels-photo-9159001.jpeg" alt="Student working at a laptop in a classroom">
+      </div>
+      <div class="p-6">
+       <span data-template-id="card-6-number" class="canva-tag font-bold" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 06</span>
+       <h3 data-template-id="card-6-title" class="canva-text mt-2" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">My Academic and Professional Plans</h3>
+       <p data-template-id="card-6-excerpt" class="canva-text mt-3 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Explaining professional goals and responses to network problems.</p><span data-template-id="card-6-read" class="canva-text mt-5 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Read Post →</span>
+      </div></a>
+    </div>
+   </section>
+   <section id="articles" class="w-full bg-[#f5f9f8] px-5 py-20 md:px-10" aria-label="Full blog posts">
+    <div class="mx-auto max-w-4xl space-y-12">
+     <article id="post-1" data-template-id="post-1-panel" class="canva-card post-article rounded-3xl border border-[#dce8e8] bg-white p-6 shadow-sm md:p-10" style="background: rgb(255, 255, 255);">
+      <p data-template-id="post-1-number" class="canva-tag font-bold uppercase tracking-[.15em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 01 / VIDEO ACTIVITY</p>
+      <h2 data-template-id="post-1-title" class="canva-text mt-3" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 24px;">My Virtual Job Interview</h2>
+      <div data-template-id="post-1-intro" class="canva-text mt-6 space-y-6 leading-[1.8]" style="color: rgb(56, 84, 104);">
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">Introduction</h3>
+        <p>Preparing for a job interview is an important step in professional development, especially when the interview is conducted in English. As a student interested in computer networks and technology, I understand that communication skills are just as important as technical knowledge.</p>
+       </section>
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">My Experience</h3>
+        <p>For this activity, I recorded a virtual job interview in English. During the interview, I answered questions about my academic background, personal interests, professional strengths, and future career goals.</p>
+        <p class="mt-4">I talked about my studies in Systems Engineering and Data Network Management, my interest in cybersecurity, and my motivation to continue developing my technical abilities. I also had the opportunity to describe some of my hobbies and the personal qualities that I consider important in a professional environment.</p>
+       </section>
+       <section>
+        <h3 class="mb-2 font-semibold">What I Learned</h3>
+        <p>This experience helped me practice answering questions in English, organizing my ideas, and communicating with greater confidence. I also learned that preparing for an interview requires understanding my own abilities and explaining how they can contribute to a company.</p>
+       </section>
+      </div>
+      <div class="mt-8 video-frame"><iframe src="https://www.youtube.com/embed/y6X4x_2DMFs" title="My Virtual Job Interview video" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div><a href="https://youtu.be/y6X4x_2DMFs" target="_blank" rel="noopener noreferrer" data-template-id="post-1-video-link" class="canva-link mt-4 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Watch the video on YouTube</a>
+      <div data-template-id="post-1-reflection-box" class="canva-panel mt-8 rounded-2xl p-6" style="background: rgb(238, 248, 246);">
+       <h3 data-template-id="post-1-reflection-label" class="canva-text" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Reflection</h3>
+       <p data-template-id="post-1-reflection" class="canva-text mt-2 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">I believe that learning English can create new professional opportunities. Although speaking in another language can sometimes be challenging, activities like this encourage me to keep practicing and improving.</p>
+      </div><a href="#home" data-template-id="post-1-back" class="canva-link mt-7 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Back to Home ↑</a>
+     </article>
+     <article id="post-2" data-template-id="post-2-panel" class="canva-card post-article rounded-3xl border border-[#dce8e8] bg-white p-6 shadow-sm md:p-10" style="background: rgb(255, 255, 255);">
+      <p data-template-id="post-2-number" class="canva-tag font-bold uppercase tracking-[.15em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 02 / VIDEO ACTIVITY</p>
+      <h2 data-template-id="post-2-title" class="canva-text mt-3" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 24px;">Discovering a Tourist Place</h2>
+      <div data-template-id="post-2-intro" class="canva-text mt-6 space-y-6 leading-[1.8]" style="color: rgb(56, 84, 104);">
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">Introduction</h3>
+        <p>Traveling and discovering new places are interesting ways to learn about different cultures, traditions, and environments. English is especially useful when describing destinations and sharing travel experiences with people from different countries.</p>
+       </section>
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">My Experience</h3>
+        <p>In this activity, I prepared a video presentation about a tourist destination. My objective was to practice describing a place in English and organizing information in a way that other people could easily understand.</p>
+        <p class="mt-4">Through this exercise, I practiced presenting information, using descriptive vocabulary, and expressing ideas clearly. It was also an opportunity to connect language learning with the topic of tourism.</p>
+       </section>
+       <section>
+        <h3 class="mb-2 font-semibold">What I Learned</h3>
+        <p>I learned that describing a tourist destination requires appropriate vocabulary, clear pronunciation, and a logical organization of ideas. These abilities are useful not only for traveling but also for everyday communication.</p>
+       </section>
+      </div>
+      <div class="mt-8 video-frame"><iframe src="https://www.youtube.com/embed/NyrTVkkM6og" title="Discovering a Tourist Place video" loading="lazy" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div><a href="https://youtu.be/NyrTVkkM6og" target="_blank" rel="noopener noreferrer" data-template-id="post-2-video-link" class="canva-link mt-4 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Watch the video on YouTube</a>
+      <div data-template-id="post-2-reflection-box" class="canva-panel mt-8 rounded-2xl p-6" style="background: rgb(238, 248, 246);">
+       <h3 data-template-id="post-2-reflection-label" class="canva-text" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Reflection</h3>
+       <p data-template-id="post-2-reflection" class="canva-text mt-2 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">This activity reminded me that English is more than an academic subject. It is a practical tool that helps people share experiences, learn about different places, and communicate with others.</p>
+      </div><a href="#home" data-template-id="post-2-back" class="canva-link mt-7 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Back to Home ↑</a>
+     </article>
+     <article id="post-3" data-template-id="post-3-panel" class="canva-card post-article rounded-3xl border border-[#dce8e8] bg-white p-6 shadow-sm md:p-10" style="background: rgb(255, 255, 255);">
+      <p data-template-id="post-3-number" class="canva-tag font-bold uppercase tracking-[.15em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 03 / WRITING ACTIVITY</p>
+      <h2 data-template-id="post-3-title" class="canva-text mt-3" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 24px;">My Job Application Letter</h2>
+      <div data-template-id="post-3-intro" class="canva-text mt-6 space-y-6 leading-[1.8]" style="color: rgb(56, 84, 104);">
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">Introduction</h3>
+        <p>Writing a professional job application is an essential skill for anyone preparing to enter the labor market. A well-written letter allows applicants to introduce themselves, describe their qualifications, and express their interest in a particular position.</p>
+       </section>
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">My Experience</h3>
+        <p>In this activity, I wrote a formal job application letter for a Network Administrator position. I presented my academic background in Systems Engineering and Data Network Management and explained my interest in working in the technology sector.</p>
+        <p class="mt-4">I also described relevant abilities related to computer networks, technical support, programming, and problem-solving. My intention was to demonstrate how my education and personal commitment could contribute to a professional organization.</p>
+       </section>
+       <section>
+        <h3 class="mb-2 font-semibold">What I Learned</h3>
+        <p>This activity helped me understand how to organize a formal letter in English. I practiced using professional vocabulary, presenting my qualifications, and expressing my motivation respectfully and clearly.</p>
+       </section>
+      </div><a href="https://drive.google.com/file/d/1TSgQTbdBGlJlcB28e1ENIhcSk_XfENtI/view?usp=drive_link" target="_blank" rel="noopener noreferrer" data-template-id="post-3-letter-link" class="canva-button action-link mt-8" style="background: rgb(8, 127, 123); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">View My Job Application Letter</a>
+      <div data-template-id="post-3-reflection-box" class="canva-panel mt-8 rounded-2xl p-6" style="background: rgb(238, 248, 246);">
+       <h3 data-template-id="post-3-reflection-label" class="canva-text" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Reflection</h3>
+       <p data-template-id="post-3-reflection" class="canva-text mt-2 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">I consider this activity especially useful because writing professional documents in English can help me prepare for future employment opportunities. It also motivates me to continue strengthening both my technical knowledge and communication skills.</p>
+      </div><a href="#home" data-template-id="post-3-back" class="canva-link mt-7 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Back to Home ↑</a>
+     </article>
+     <article id="post-4" data-template-id="post-4-panel" class="canva-card post-article rounded-3xl border border-[#dce8e8] bg-white p-6 shadow-sm md:p-10" style="background: rgb(255, 255, 255);">
+      <p data-template-id="post-4-number" class="canva-tag font-bold uppercase tracking-[.15em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 04 / WRITING ACTIVITY</p>
+      <h2 data-template-id="post-4-title" class="canva-text mt-3" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 24px;">Tim Berners-Lee and the World Wide Web</h2>
+      <div data-template-id="post-4-intro" class="canva-text mt-6 space-y-6 leading-[1.8]" style="color: rgb(56, 84, 104);">
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">Introduction</h3>
+        <p>Technology has transformed the way people communicate, study, and work. One of the most important developments in modern history is the World Wide Web, which made accessing and sharing information much easier.</p>
+       </section>
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">My Experience</h3>
+        <p>For this written activity, I prepared a chronicle about Tim Berners-Lee, the computer scientist who created the World Wide Web.</p>
+        <p class="mt-4">I researched important moments in his life and professional career, including his academic background, his work at CERN, and his proposal for a system that would allow researchers to share information through interconnected documents.</p>
+        <p class="mt-4">I also learned about the development of the first web browser, web server, and website, as well as the importance of keeping the Web accessible to everyone.</p>
+       </section>
+       <section>
+        <h3 class="mb-2 font-semibold">What I Learned</h3>
+        <p>This activity helped me improve my English reading and writing skills while exploring a topic directly related to my academic interests. It also allowed me to understand how technological innovations can influence society and transform everyday life.</p>
+       </section>
+      </div><img data-template-id="post-4-image" class="canva-image mt-8 h-56 w-full rounded-2xl object-cover md:h-72" loading="lazy" src="https://images.pexels.com/photos/17323801/pexels-photo-17323801.jpeg" alt="Abstract web technology and digital network illustration"> <a href="https://drive.google.com/file/d/1e3Lw4Ei-lbbeVo4Sv1hhQ4ISPV3xTpQm/view?usp=drive_link" target="_blank" rel="noopener noreferrer" data-template-id="post-4-chronicle-link" class="canva-button action-link mt-8" style="background: rgb(8, 127, 123); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Read My Chronicle</a>
+      <div data-template-id="post-4-reflection-box" class="canva-panel mt-8 rounded-2xl p-6" style="background: rgb(238, 248, 246);">
+       <h3 data-template-id="post-4-reflection-label" class="canva-text" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Reflection</h3>
+       <p data-template-id="post-4-reflection" class="canva-text mt-2 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">As a student interested in computer networks and technology, I find Tim Berners-Lee's contribution particularly inspiring. His work demonstrates how a technical idea can become a tool used by millions of people around the world.</p>
+      </div><a href="#home" data-template-id="post-4-back" class="canva-link mt-7 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Back to Home ↑</a>
+     </article>
+     <article id="post-5" data-template-id="post-5-panel" class="canva-card post-article rounded-3xl border border-[#dce8e8] bg-white p-6 shadow-sm md:p-10" style="background: rgb(255, 255, 255);">
+      <p data-template-id="post-5-number" class="canva-tag font-bold uppercase tracking-[.15em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 05 / AUDIO ACTIVITY</p>
+      <h2 data-template-id="post-5-title" class="canva-text mt-3" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 24px;">Attitudes, Beliefs and Obligations</h2>
+      <div data-template-id="post-5-intro" class="canva-text mt-6 space-y-6 leading-[1.8]" style="color: rgb(56, 84, 104);">
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">Introduction</h3>
+        <p>Professional success does not depend only on technical skills. Personal attitudes, ethical values, responsibility, and teamwork are also essential for creating a positive academic and professional environment.</p>
+       </section>
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">My Experience</h3>
+        <p>In this audio activity, I shared my opinions about attitudes, beliefs, and obligations in academic and work contexts.</p>
+        <p class="mt-4">I explained the importance of responsibility, discipline, respect, and collaboration. I also discussed how these values apply to the field of computer networks, where professionals must protect sensitive information, follow cybersecurity policies, and respond responsibly to technical problems.</p>
+       </section>
+       <section>
+        <h3 class="mb-2 font-semibold">What I Learned</h3>
+        <p>This activity helped me practice expressing opinions, explaining responsibilities, and using English vocabulary related to professional behavior.</p>
+        <p class="mt-4">I also reflected on the importance of continuous learning, because technology changes constantly and network professionals must keep their knowledge updated.</p>
+       </section>
+      </div>
+      <div data-template-id="post-5-media" class="canva-panel mt-8 rounded-2xl p-6" style="background: rgb(244, 250, 249);">
+       <p data-template-id="post-5-media-label" class="canva-text mb-4 font-semibold" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Open the audio in a new tab.</p><a href="https://drive.google.com/file/d/1vsVZ4zwYx4LDgmiwwaORalUqkT5OBXBv/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-template-id="post-5-audio" class="canva-button action-link" style="background: rgb(8, 127, 123); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Listen to My Audio</a>
+      </div>
+      <div data-template-id="post-5-reflection-box" class="canva-panel mt-8 rounded-2xl p-6" style="background: rgb(238, 248, 246);">
+       <h3 data-template-id="post-5-reflection-label" class="canva-text" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Reflection</h3>
+       <p data-template-id="post-5-reflection" class="canva-text mt-2 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">I believe that being a good professional means combining technical knowledge with ethical behavior. Respect, honesty, responsibility, and teamwork are values that I want to apply throughout my professional career.</p>
+      </div><a href="#home" data-template-id="post-5-back" class="canva-link mt-7 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Back to Home ↑</a>
+     </article>
+     <article id="post-6" data-template-id="post-6-panel" class="canva-card post-article rounded-3xl border border-[#dce8e8] bg-white p-6 shadow-sm md:p-10" style="background: rgb(255, 255, 255);">
+      <p data-template-id="post-6-number" class="canva-tag font-bold uppercase tracking-[.15em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">POST 06 / AUDIO ACTIVITY</p>
+      <h2 data-template-id="post-6-title" class="canva-text mt-3" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 24px;">My Academic and Professional Plans</h2>
+      <div data-template-id="post-6-intro" class="canva-text mt-6 space-y-6 leading-[1.8]" style="color: rgb(56, 84, 104);">
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">Introduction</h3>
+        <p>Having clear academic and professional goals is important for personal growth. However, reaching those goals also requires flexibility, responsibility, leadership, and the ability to adapt to unexpected situations.</p>
+       </section>
+       <section class="border-b border-[#dce8e8] pb-6">
+        <h3 class="mb-2 font-semibold">My Experience</h3>
+        <p>For this audio activity, I explained my academic experience and future professional plans.</p>
+        <p class="mt-4">I discussed my interest in computer networks and cybersecurity, as well as my intention to continue developing my technical and communication skills.</p>
+        <p class="mt-4">I also reflected on the importance of making responsible decisions and responding effectively to challenges in professional environments.</p>
+        <p class="mt-4">For example, when unexpected network problems occur, professionals must analyze the situation, identify possible solutions, and work with their teams to restore services.</p>
+       </section>
+       <section>
+        <h3 class="mb-2 font-semibold">What I Learned</h3>
+        <p>This activity allowed me to practice English conditional sentences and vocabulary related to leadership, decision-making, adaptability, and professional responsibility.</p>
+        <p class="mt-4">I also understood that solving technical problems requires more than knowing how technology works. Communication, patience, and teamwork are equally important.</p>
+       </section>
+      </div>
+      <div data-template-id="post-6-media" class="canva-panel mt-8 rounded-2xl p-6" style="background: rgb(244, 250, 249);">
+       <p data-template-id="post-6-media-label" class="canva-text mb-4 font-semibold" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">Open the audio in a new tab.</p><a href="https://drive.google.com/file/d/10htZ1c4hI-QxVCjn7P-Ds9wEqKzpBOkh/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-template-id="post-6-audio" class="canva-button action-link" style="background: rgb(8, 127, 123); color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Listen to My Audio</a>
+      </div>
+      <div data-template-id="post-6-reflection-box" class="canva-panel mt-8 rounded-2xl p-6" style="background: rgb(238, 248, 246);">
+       <h3 data-template-id="post-6-reflection-label" class="canva-text" style="color: rgb(20, 45, 64); font-weight: 600; font-style: normal; font-size: 19px;">Reflection</h3>
+       <p data-template-id="post-6-reflection" class="canva-text mt-2 leading-relaxed" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">My goal is to continue learning and preparing for opportunities in the technology sector. I understand that professional development is a continuous process, and I want to become someone who can contribute positively to a team and adapt to new challenges.</p>
+      </div><a href="#home" data-template-id="post-6-back" class="canva-link mt-7 inline-block font-bold underline underline-offset-4" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 16px;">Back to Home ↑</a>
+     </article>
+    </div>
+   </section>
+   <section id="about-me" data-template-id="about-section" class="canva-section w-full px-5 py-20 md:px-10" style="background: rgb(255, 255, 255);">
+    <div class="mx-auto grid max-w-7xl items-center gap-10 md:grid-cols-2"><img data-template-id="about-image" class="canva-image h-72 w-full rounded-3xl object-cover md:h-96" loading="lazy" src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="Blue Ethernet cables connected to a network switch">
+     <div>
+      <p data-template-id="about-eyebrow" class="canva-text mb-3 font-bold uppercase tracking-[.16em]" style="color: rgb(8, 127, 123); font-weight: 400; font-style: normal; font-size: 12px;">The person behind the blog</p>
+      <h2 data-template-id="about-title" class="canva-text" style="color: rgb(20, 45, 64); font-weight: 700; font-style: normal; font-size: 24px;">About Me</h2>
+      <p data-template-id="about-text" class="canva-text mt-6 leading-[1.8]" style="color: rgb(56, 84, 104); font-weight: 400; font-style: normal; font-size: 16px;">My name is Sebastian Camilo Castaño Rojas. I study Data Network Management at SENA. I am interested in computer networks, technology and cybersecurity. This blog brings together English learning activities connected to communication and my professional interests.</p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer data-template-id="footer-section" class="canva-footer w-full px-5 py-12 md:px-10" style="background: rgb(20, 45, 64);">
+   <div class="mx-auto flex max-w-7xl flex-col justify-between gap-7 md:flex-row md:items-end">
+    <div>
+     <p data-template-id="footer-name" class="canva-text font-bold" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Sebastian Camilo Castaño Rojas</p>
+     <p data-template-id="footer-institution" class="canva-text mt-2" style="color: rgb(215, 239, 235); font-weight: 400; font-style: normal; font-size: 16px;">SENA – Servicio Nacional de Aprendizaje</p>
+     <p data-template-id="footer-purpose" class="canva-text mt-2" style="color: rgb(215, 239, 235); font-weight: 400; font-style: normal; font-size: 16px;">Educational English learning blog</p>
+    </div><a href="#home" data-template-id="footer-back" class="canva-link font-bold underline underline-offset-4" style="color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-size: 16px;">Back to Home ↑</a>
+   </div>
+  </footer>
+  <script>
+    const menuButton = document.getElementById('menu-toggle');
+    const navigation = document.getElementById('primary-nav');
+    function closeMenu() {
+      navigation.hidden = true;
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation menu');
+    }
+    menuButton.addEventListener('click', () => {
+      const opening = menuButton.getAttribute('aria-expanded') !== 'true';
+      navigation.hidden = !opening;
+      menuButton.setAttribute('aria-expanded', String(opening));
+      menuButton.setAttribute('aria-label', opening ? 'Close navigation menu' : 'Open navigation menu');
+    });
+    navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+        closeMenu();
+        menuButton.focus();
+      }
+    });
+
+  </script>
+ 
+</body></html>
